@@ -63,15 +63,3 @@ h2{
 .largo{
     width: 500px;
 }
-
-.mapa{
-    width: 500px;
-    height: 350px;
-}
-
-@media screen and (max-width: 530px) {
-   .mapa{ 
-    width: 250px;
-    height: 300px;
-}
-  }
