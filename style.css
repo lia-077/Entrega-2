@@ -9,12 +9,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .direction-col{
-    display: flex;
     flex-direction: column;
 }
+
 
 .container-margin{
     margin: 10px;
