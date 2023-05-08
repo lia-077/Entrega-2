@@ -60,6 +60,24 @@ h2{
     padding: 20px 0px 0px 0px;
 }
 
-.largo{
-    width: 500px;
+.table-lg{
+    width: 30%;
 }
+
+.tb-border{
+    border: 1px solid black;
+}
+
+.largo{
+    width: 70%;
+}
+
+.map-size{
+    height: 450px;
+    width: 70%;
+}
+.img-size{
+    height: 70%;
+    width: 70%;
+}
+
