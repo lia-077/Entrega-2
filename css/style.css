@@ -1,0 +1,16 @@
+/* Encabezado */
+.bg-top {
+  background-color: rgb(98, 228, 255);
+}
+
+.nav-hover:hover {
+  font-weight: bold;
+  padding: 5px;
+  background-color: rgb(240, 240, 247);
+}
+
+li {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=style.css.map */

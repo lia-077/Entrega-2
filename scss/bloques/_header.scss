@@ -1,0 +1,18 @@
+/* Encabezado */
+
+@import "../bloques/variables";
+@import "../base/listas";
+
+.bg-top{
+    background-color: nth($colores,1);
+}
+
+.nav-hover:hover{
+    font-weight: bold;
+    padding: 5px;
+    background-color: nth($colores,3);
+}
+
+li{
+    list-style-type: $list-type;
+}
