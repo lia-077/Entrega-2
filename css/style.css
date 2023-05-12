@@ -65,6 +65,11 @@ li {
   margin: 10px;
 }
 
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
 h2 {
   font-size: 25px;
   font-family: "oswald", sans-serif;
@@ -90,6 +95,10 @@ h2 {
 .img-size {
   height: 70%;
   width: 70%;
+}
+
+p {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */
