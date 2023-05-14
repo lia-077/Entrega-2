@@ -1,0 +1,174 @@
+[33mcommit 33bb2351b917d14e20504ffe2eec4a2db6d148a4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Sun May 14 12:09:34 2023 -0500
+
+    oferta academica layout
+
+[33mcommit 2fcdf1e3bbdda911cfe517dc1d0e63d2365bfbf7[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Thu May 11 20:52:36 2023 -0500
+
+    actualizando conexion a estilos
+
+[33mcommit 2f32006ce960f1d86ad1a55a9f1ebda6ed7b6461[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Thu May 11 20:40:28 2023 -0500
+
+    agregando estilos
+
+[33mcommit 5741af601378ddf4e2b823ff09fcd7ea31e34fde[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Thu May 11 20:28:24 2023 -0500
+
+    agregando SEO
+
+[33mcommit e9d164b9d22298ba7e4dd3ecc08985115b7d0019[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Wed May 10 22:00:17 2023 -0500
+
+    trabajando sass
+
+[33mcommit aabbeb7d31fd8acb95bc5163e116ac335c32f873[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Tue May 9 22:32:32 2023 -0500
+
+    agregamos sass 1
+
+[33mcommit 687cbd15264bc90e6136d8bf4ffce8d6fea11f06[m[33m ([m[1;32mentrega-3[m[33m)[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Tue May 9 21:41:26 2023 -0500
+
+    ajuste ancho de pagina
+
+[33mcommit 0ffca35db1c4a491f8fda1169b3cc1f6a301bb02[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Sun May 7 19:26:15 2023 -0500
+
+    update de paginas
+
+[33mcommit bb8115bb26dab1789c89afd25993ed00f84c11f4[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Sun May 7 18:46:56 2023 -0500
+
+    corrigiendo rutas style
+
+[33mcommit 1a10d3cca1cfa52c8f1a4353b6c97394d622c63e[m
+Author: Julian-077 <113487761+lia-077@users.noreply.github.com>
+Date:   Sun May 7 18:43:18 2023 -0500
+
+    Rename Oferta-Academica.html to oferta-Academica.html
+
+[33mcommit e4bedb1429ef4210bd7063d42778ab0654cc5e82[m
+Author: Julian-077 <113487761+lia-077@users.noreply.github.com>
+Date:   Sun May 7 18:42:56 2023 -0500
+
+    Rename Ubicacion.html to ubicacion.html
+
+[33mcommit bab4e69b074ca58e727a4385877d1f3aaff19c15[m
+Author: Julian-077 <113487761+lia-077@users.noreply.github.com>
+Date:   Sun May 7 18:42:33 2023 -0500
+
+    Rename Aula.html to aula.html
+
+[33mcommit 95995eb21c36b8188bfeb745a079d37a83784642[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Sun May 7 18:40:46 2023 -0500
+
+    re-organizando
+
+[33mcommit 0f89e77ffeb7cf848ad8b9f6357c5115970730b8[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Sun May 7 18:34:48 2023 -0500
+
+    cambio nombre equipo
+
+[33mcommit 2c914e7817d11a32265a599a1d2151d9440383e0[m
+Author: Julian-077 <113487761+lia-077@users.noreply.github.com>
+Date:   Sun May 7 18:32:37 2023 -0500
+
+    Rename Equipo-de-trabajo.html to equipo-de-trabajo.html
+
+[33mcommit f0560805043474f01cd7964cecf1c0b73153f4a9[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Sun May 7 17:39:20 2023 -0500
+
+    intento cambiar ubicacion
+
+[33mcommit 646cb8a53a09b4313ba1e916e6cad5a87453742b[m
+Author: Julian-077 <113487761+lia-077@users.noreply.github.com>
+Date:   Sun May 7 17:28:45 2023 -0500
+
+    Update Equipo-de-trabajo.html
+
+[33mcommit 68a82e8361620486bdc9fd4110ad543a1cbbb053[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Sun May 7 17:17:38 2023 -0500
+
+    cambios ubicacion
+
+[33mcommit 1832f27b3ec3a45f606100017e0f5c2fd0a290da[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Sun May 7 17:07:50 2023 -0500
+
+    cambios Aula
+
+[33mcommit 95fa3df5972b807a3824651a888898b7ca632057[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Sun May 7 16:54:51 2023 -0500
+
+    correccion  titulo y logo
+
+[33mcommit 17c0b6535e24e76bbe4ab3d24abded7363e34d06[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Sun May 7 16:43:54 2023 -0500
+
+    formato imagenes
+
+[33mcommit bd00bcc183438f9800ea067a53f71bad072f54ed[m
+Merge: 16cc4bb fc86596
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Sun May 7 16:17:32 2023 -0500
+
+    Merge branch 'main' of https://github.com/lia-077/Entrega-2
+
+[33mcommit 16cc4bbe123899e018ac197efd97aeb442c171e4[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Sun May 7 16:06:25 2023 -0500
+
+    cambios header y footer
+
+[33mcommit fc8659677a27435a2d04c1792976bf63fe97b2ed[m
+Author: Julian-077 <113487761+lia-077@users.noreply.github.com>
+Date:   Tue May 2 17:52:50 2023 -0500
+
+    Update Ubicacion.html
+
+[33mcommit 5367ff70f4999c3b054064e20ba3bf4e02307948[m
+Author: Julian-077 <113487761+lia-077@users.noreply.github.com>
+Date:   Tue May 2 17:52:20 2023 -0500
+
+    Update Oferta-Academica.html
+
+[33mcommit d3a7c1994ee10f89ff805cba8bde0b548b210ff2[m
+Author: Julian-077 <113487761+lia-077@users.noreply.github.com>
+Date:   Tue May 2 17:51:56 2023 -0500
+
+    Update Equipo-de-trabajo.html
+
+[33mcommit 1e5619403d24718c1d7262a8c947dfea4363a4ed[m
+Author: Julian-077 <113487761+lia-077@users.noreply.github.com>
+Date:   Tue May 2 17:50:46 2023 -0500
+
+    Update Aula.html
+
+[33mcommit 45af3ed5eb3bb6e39bf8bd27baf845627193d474[m
+Author: Julian-077 <113487761+lia-077@users.noreply.github.com>
+Date:   Tue May 2 17:50:12 2023 -0500
+
+    Update and rename Index.html to index.html
+
+[33mcommit 0339c4637de148cdb55eb8647e18b59b295fa4e2[m
+Author: julian garzon <julian.20.dg@gmail.com>
+Date:   Thu Apr 27 19:45:47 2023 -0500
+
+    agregar proyecto
