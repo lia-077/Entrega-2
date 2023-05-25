@@ -1,8 +1,0 @@
-
-@import "../base/listas";
-
-@mixin sobreponer{
-    font-weight: bold;
-    padding: 5px;
-    background-color: nth($colores,3);
-}

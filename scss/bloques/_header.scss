@@ -1,19 +1,30 @@
-/* Encabezado */
 
-@import "../bloques/variables";
-@import "../base/listas";
-@import "../base/mixin";
-@import "../base/extends";
 
-.bg-top{
-    background-color: nth($colores,1);
+
+.header-bg{
+    background-color: nth($colores, 2);
 }
 
-.nav-hover:hover{
-    @include sobreponer;
+
+.redes{
+    max-width: auto;
+    height: 30px;
 }
 
-li{
-    list-style-type: $list-type;
+.universidad{
+    max-width:auto;
+    height: 50px;
 }
 
+.centro{
+    display: flex;
+    justify-content: space-around;
+}
+
+.espacio-gap{
+    gap: 0 10%;
+}
+
+.color-texto{
+    color: white;
+}

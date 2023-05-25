@@ -38,156 +38,186 @@
      <meta property="og:description" content="Bienvenido al aula de simulacion de la universidad de manizales, aqui podras encontrar toda la informacion sobre oferta academica, cursos, disponibilidad y ubicacion, te esperamos!">
      <meta property="og:creator" content="Julian Garzon">
 </head>
-<!-- Encabezado -->
 
-<body class="ancho-pagina">
-    <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-top">
-            <div class="container-fluid">
-                <a class="navbar-brand text-dark nav-hover" href="../index.html">UM | Aula de simulacion</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+<body>
+  <!-- Encabezado -->
+  <nav class="navbar navbar-expand-xl navbar-light header-bg">
+    <div class="container-fluid">
+        <section>
+      <a class="navbar-brand" href="https://www.facebook.com/umanizales"><img class="redes" src="/Images/iconos/facebook.png" alt="icono de facebook"></a>
+      <a class="navbar-brand" href="https://www.instagram.com/umanizales/"><img class="redes" src="/Images/iconos/instagram.png" alt="icono de instagram"></a>
+      <a class="navbar-brand" href="https://twitter.com/umanizales?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="redes" src="/Images/iconos/twitter.png" alt="icono de twitter"></a>
+    </section>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse show" id="navbarBasic">
+        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="/index.html#ubicacion">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" href="/Pages/equipo-de-trabajo.html">Equipo de trabajo</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-dark" type="submit">Search</button>
+          </form>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container-fluid justify-content-around">
+      <a class="navbar-brand" href="/index.html"><img class="universidad"src="/Images/iconos/universidad.png" alt="icono universidad"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="">Más</span>
+      </button>
+      <div class="collapse navbar-collapse show flex-grow-0" id="navbarNavAltMarkup">
+        <div class="navbar-nav text-center">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                  Oferta Academica
                 </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-xl-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-dark nav-hover" aria-current="page" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark nav-hover" href="../Pages/oferta-Academica.html">Oferta Academica</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark nav-hover" href="../Pages/aula.html">Aula</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark nav-hover" href="../Pages/equipo-de-trabajo.html">Equipo de trabajo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark nav-hover" href="../Pages/ubicacion.html">Ubicacion</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>  
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="/Pages/oferta-Academica.html">Todo</a></li>
+                  <li><a class="dropdown-item" href="/Pages/cursos.html">Cursos</a></li>
+                  <li><a class="dropdown-item" href="/Pages/diplomados.html">Diplomados</a></li>
+                </ul>
+              </div>
+        </div>
+    </div>
+    </div>
+  </nav>    
 <!-- Fin Encabezado -->
-<section class="position-center direction-col container-margin">
-    <h3 class="largo text-center">Cursos y diplomados</h3>
 
-    <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                Curso de atención de emergencias médicas
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-            <div class="accordion-body">
-              <strong></strong> Este curso estaría enfocado en la formación de estudiantes y profesionales de la salud en la atención de emergencias médicas. Durante el curso, los estudiantes aprenderían a reconocer y manejar situaciones de emergencia, como paros cardíacos, traumatismos y heridas graves. Se utilizarían maniquíes de alta fidelidad y equipos especializados para simular situaciones clínicas realistas, y los estudiantes tendrían la oportunidad de practicar la toma de decisiones rápidas y efectivas en situaciones de alta presión.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-              Curso de simulación en cirugía
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-            <div class="accordion-body">
-              <strong></strong>Este curso estaría enfocado en la formación de estudiantes y profesionales de la salud en técnicas quirúrgicas avanzadas. Durante el curso, los estudiantes practicarían técnicas quirúrgicas en maniquíes de alta fidelidad y aprenderían a manejar equipos quirúrgicos complejos. El curso estaría dirigido por cirujanos experimentados y permitiría a los estudiantes adquirir habilidades avanzadas en técnicas quirúrgicas.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                Curso de simulación en obstetricia
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-            <div class="accordion-body">
-              <strong></strong> Este curso estaría enfocado en la formación de estudiantes y profesionales de la salud en el manejo de situaciones obstétricas complejas. Durante el curso, los estudiantes practicarían el manejo de situaciones obstétricas de alto riesgo, como partos prematuros y complicaciones durante el parto. Los estudiantes tendrían la oportunidad de practicar en maniquíes de alta fidelidad y equipos especializados para mejorar sus habilidades y destrezas en situaciones obstétricas complejas. El curso estaría dirigido por obstetras y ginecólogos experimentados.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                Diplomado en simulación clínica
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-            <div class="accordion-body">
-              <strong></strong> Formación en el diseño y desarrollo de escenarios de simulación clínica, uso de equipos especializados y evaluación del desempeño de los estudiantes durante las simulaciones
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                Diplomado en liderazgo y trabajo en equipo en situaciones de emergencia
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-            <div class="accordion-body">
-              <strong></strong>  Formación en liderazgo y coordinación de equipos en situaciones de alta presión, toma de decisiones en equipo y práctica en situaciones de emergencia utilizando maniquíes de alta fidelidad y equipos especializados
-            </div>
-          </div>
+<!-- Imagen encabezado -->
+
+<div class="carousel-item active c-item">
+  <img src="/Images/reunion-lluvia-ideas-multirracial-inicio-pequenas-empresas-asiaticas-computadora-portatil-papel-cuadriculado-todos-enmascarados-proteccion-.jpg" class="d-block w-100 img-item" alt="Slide 1">
+  <div class="carousel-caption  mt-4 ">
+    <h1 class="display-1 fw-bolder text-capitalize text-end fs-1">Formación practica</h1>
+    <p class="mt-5 fs-4 text-uppercase text-end">En el laboratorio de simulacion podras elegir las areas en las que te quieres enfocar, selecciona la oferta de tu interes.</p>
+  </div>
+
+<!-- Fin |  Imagen encabezado -->  
+
+<!-- Grid Cartas -->
+
+<div class="container m-1">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4">
+      <div class="card m-3">
+        <img src="/Images/cartas-cursos/dia-ajetreado-ordinario-cirujano.jpg" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Curso simulación para cirugia</h5>
+          <p class="card-text"><h6 class="text-wrap text-primary">Título que otorga:</h6>Certificado entrenamiento</p>
+          <p class="card-text"><h6 class="text-wrap text-primary">Modalidad</h6>Presencial, 2 meses</p>
+          <p class="card-text"><h6 class="text-wrap text-primary">Valor inscripción</h6>$450.000 COP</p>
+          <a href="/Pages/cursos.html#simulacion"class="btn btn-dark px-4 py-2 fs-5 mt-5">Saber más</a>
         </div>
       </div>
-
-      <div id="carouselExampleIndicators" class="carousel slide container-margin">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card m-3">
+        <img src="/Images/cartas-cursos/emergencia-medica.jpg" class="card-img-top" alt="Imagen 2">
+        <div class="card-body">
+          <h5 class="card-title">Curso en emergencias medicas</h5>
+          <p class="card-text"><h6 class="text-wrap text-primary">Título que otorga:</h6>Experto en atencion de emergencias medicas </p>
+          <p class="card-text"><h6 class="text-wrap text-primary">Modalidad</h6>Presencial, 4 meses</p>
+          <p class="card-text"><h6 class="text-wrap text-primary">Valor inscripción</h6>$300.000 COP</p>
+          <a href="/Pages/cursos.html#emergencias"class="btn btn-dark px-4 py-2 fs-5 mt-5">Saber más</a>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../Images/pexels-anna-shvets-4586993.jpg" class="d-block w-100 img-size" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../Images/surgery-g37367ccbc_640.jpg" class="d-block w-100 img-size" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../Images/pexels-cottonbro-studio-7583382.jpg" class="d-block w-100 img-size" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-      
-</section>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4">
+      <div class="card m-3">
+        <img src="/Images/cartas-cursos/manos-doctora-irreconocible-escribiendo-forma-escribiendo-teclado-portatil.jpg" class="card-img-top" alt="Imagen 3">
+        <div class="card-body">
+          <h5 class="card-title">Diplomado en simulación medica</h5>
+          <p class="card-text"><h6 class="text-wrap text-primary">Título que otorga:</h6>Diplomado en simulacion clinica</p>
+          <p class="card-text"><h6 class="text-wrap text-primary">Modalidad</h6>Presencial, 6 meses</p>
+          <p class="card-text"><h6 class="text-wrap text-primary">Valor inscripción</h6>$600.000 COP</p>
+          <a href="/Pages/diplomados.html#medica"class="btn btn-dark px-4 py-2 fs-5 mt-5">Saber más</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card m-3">
+        <img src="/Images/cartas-cursos/medico-enfermera-discutiendo-sobre-tableta-digital.jpg" class="card-img-top" alt="Imagen 4">
+        <div class="card-body">
+          <h5 class="card-title">Diplomado en liderazgo y trabajo en equipo en situaciones de emergencia</h5>
+          <p class="card-text"><h6 class="text-wrap text-primary">Título que otorga:</h6>Lider en situaciones de emergencia </p>
+          <p class="card-text"><h6 class="text-wrap text-primary">Modalidad</h6>Presencial, 4 meses</p>
+          <p class="card-text"><h6 class="text-wrap text-primary">Valor inscripción</h6>$500.000 COP</p>
+          <a href="/Pages/diplomados.html#liderazgo"class="btn btn-dark px-4 py-2 fs-5 mt-5">Saber más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Fin | Grid Cartas -->
+
 
 <!-- Pie de pagina -->
-<footer class="container-fluid bg-top ancho-pagina">
 
-    <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 position-center top-padding">
-            <ul class="documentos-footer">
-                <h2>Normativas</h2>
-                <li class="documentos-footer hover">Manual de equipo</li>
-                <li class="documentos-footer hover">Protocolo de entrada</li>
-                <li class="documentos-footer hover">Medidas de seguridad</li>
-            </ul>
-        </div>    
+<footer class="text-white text-center text-lg-start bg-dark">
+  
+  <div class="container p-4">
+  
+    <div class="row mt-4">
+      
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Acerca de nosotros</h5>
 
-            <nav class="col-lg-6 col-md-6 col-sm-6 position-center">
-                <ul>
-                    <li class="contacto-footer hover">Contacto + 57 321 443 23 54</li>
-                    <li class="contacto-footer hover">Correo:  auladesimulacion@unimanizales.edu.co</li>
-                </ul>
-            </nav>
+        <p>
+          En la Universidad de Manizales estamos comprometidos con el exito de nuestros estudiantes.
+        </p>
 
-        </div>
-    </footer>
+        <p>
+          Siempre estamos disponibles para brindarte la mejor atencion. consulta nuestros canales de atencion o acercate a las oficinas de la universidad.
+        </p>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+
+        <ul class="fa-ul" style="margin-left: 1.65em;">
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Cra. 9a # 19-03, Manizales, Caldas</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">aula.simulacion@umanizales.com</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+57 305 455 25 05</span>
+          </li>
+        </ul>
+      </div>
+     
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Horario de atención</h5>
+
+        <table class="table text-center text-white">
+          <tbody class="fw-normal">
+            <tr>
+              <td>Lunes - Jueves:</td>
+              <td>8am - 6pm</td>
+            </tr>
+            <tr>
+              <td>Viernes - Sabado:</td>
+              <td>8am - 1pm</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</footer>
 <!-- Fin Pie de pagina -->
 
 
